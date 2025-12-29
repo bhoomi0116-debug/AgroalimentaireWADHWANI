@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our website">
+    <title>AGROALIMENTAIRE</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Inter for body, Merriweather for headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Falling leaves background container -->
+    <div id="leaf-container" aria-hidden="true"></div>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">AGROALIMENTAIRE</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-decor" aria-hidden="true">
+            <!-- abstract leaf SVGs, subtle and decorative -->
+            <svg viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                <!-- more organic leaf shapes: elongated, curved, lighter -->
+                <g transform="translate(60,10) scale(1.2)">
+                    <path class="leaf-shape leaf-1" d="M20 90 C60 10, 140 10, 180 90 C140 150, 60 150, 20 90 Z"></path>
+                </g>
+                <g transform="translate(660,0) scale(1.05)">
+                    <path class="leaf-shape leaf-2" d="M30 70 C80 0, 170 10, 220 80 C180 140, 80 140, 30 70 Z"></path>
+                </g>
+                <g transform="translate(420,30) scale(1.1)">
+                    <path class="leaf-shape leaf-3" d="M25 40 C70 -10, 150 0, 190 60 C150 130, 70 110, 25 40 Z"></path>
+                </g>
+                <g transform="translate(220,40) scale(0.9)">
+                    <path class="leaf-shape leaf-4" d="M10 70 C45 10, 100 5, 140 70 C100 120, 40 120, 10 70 Z"></path>
+                </g>
+                <g transform="translate(900,40) scale(0.95)">
+                    <path class="leaf-shape leaf-5" d="M30 60 C70 5, 130 2, 170 60 C130 110, 70 110, 30 60 Z"></path>
+                </g>
+                <g transform="translate(520,5) scale(0.8)">
+                    <path class="leaf-shape leaf-6" d="M20 50 C50 0, 110 0, 150 50 C110 90, 50 90, 20 50 Z"></path>
+                </g>
+                <g transform="translate(320,5) scale(0.7)">
+                    <path class="leaf-shape leaf-7" d="M15 45 C45 5, 90 8, 120 45 C90 80, 45 80, 15 45 Z"></path>
+                </g>
+            </svg>
+        </div>
+
+        <div class="hero-content">
+            <h1>Welcome to AGROALIMENTAIRE</h1>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <div style="background: linear-gradient(135deg, #f0f9e8 0%, #e8f5e9 100%); padding: 2rem; border-radius: 8px; border-left: 5px solid #2d5016;">
+                <p style="font-size: 1.1rem; margin-bottom: 1.5rem; line-height: 1.8;"><strong>Our Story</strong></p>
+                <p style="margin-bottom: 1.5rem; line-height: 1.8;">Agroalimentaire was started to support farmers who work hard but often struggle to get fair prices, reliable buyers, and timely payments for their produce.</p>
+                
+                <p style="font-size: 1.1rem; margin-bottom: 1rem; margin-top: 1.5rem; line-height: 1.8;"><strong>The Challenge</strong></p>
+                <p style="margin-bottom: 1.5rem; line-height: 1.8;">We understand that farmers face uncertainty every season — too many middlemen, unclear pricing, and delayed settlements. This directly affects their income and peace of mind.</p>
+                
+                <p style="font-size: 1.1rem; margin-bottom: 1rem; margin-top: 1.5rem; line-height: 1.8;"><strong>Our Solution</strong></p>
+                <p style="margin-bottom: 1.5rem; line-height: 1.8;">Our goal is simple: to make the process of selling farm produce transparent, reliable, and farmer-friendly. We connect farmers with verified buyers and help ensure fair pricing and smoother transactions.</p>
+                
+                <p style="font-size: 1.1rem; margin-bottom: 1rem; margin-top: 1.5rem; line-height: 1.8;"><strong>Our Values</strong></p>
+                <p style="margin-bottom: 1.5rem; line-height: 1.8;">Agroalimentaire is built with a strong focus on trust, simplicity, and long-term farmer partnerships. We believe farmers deserve respect, transparency, and better opportunities to grow.</p>
+                
+                <div style="background: white; padding: 1.5rem; border-radius: 5px; border-left: 4px solid #558b2f; margin-top: 2rem;">
+                    <p style="font-size: 1.15rem; margin: 0; line-height: 1.8;"><strong style="color: #2d5016;">🌾 Our Mission:</strong> Empower farmers by making agri-trade fair, simple, and dependable.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="service-top">
+                        <div class="service-icon">🌱</div>
+                        <h3>Farmer Onboarding</h3>
+                    </div>
+                    <p>We register farmers and document the type, quantity, and quality of their produce so we can match them with the right buyers quickly and accurately.</p>
+                </div>
+
+                <div class="card">
+                    <div class="service-top">
+                        <div class="service-icon">🤝</div>
+                        <h3>Market Access</h3>
+                    </div>
+                    <p>We connect farmers with verified buyers and traders, reducing dependence on multiple middlemen and improving price transparency.</p>
+                </div>
+
+                <div class="card">
+                    <div class="service-top">
+                        <div class="service-icon">💲</div>
+                        <h3>Price Transparency</h3>
+                    </div>
+                    <p>We publish clear, market-informed pricing so farmers can choose the best time and buyer to maximize returns.</p>
+                </div>
+
+                <div class="card">
+                    <div class="service-top">
+                        <div class="service-icon">📦</div>
+                        <h3>Order & Deal Coordination</h3>
+                    </div>
+                    <p>We coordinate orders, quantities, and delivery timelines to reduce confusion, avoid delays, and keep transactions on track.</p>
+                </div>
+
+                <div class="card">
+                    <div class="service-top">
+                        <div class="service-icon">🔎</div>
+                        <h3>Quality & Trust Support</h3>
+                    </div>
+                    <p>We help define and verify quality standards, vet buyers, and build long-term trust between farmers and trade partners.</p>
+                </div>
+
+                <div class="card">
+                    <div class="service-top">
+                        <div class="service-icon">💸</div>
+                        <h3>Timely Payments</h3>
+                    </div>
+                    <p>We streamline payment processes and follow up to ensure farmers receive payments reliably and on time after sale.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prototype Section -->
+        <section id="prototype">
+            <h2>Prototype</h2>
+            <p>Preview our interactive prototype to explore flows and the user experience.</p>
+
+            <div style="max-width: 320px;">
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <div class="service-top" style="padding: 1rem;">
+                        <div class="service-icon">🔍</div>
+                        <h3 style="margin:0;">Interactive Prototype</h3>
+                    </div>
+
+                    <a href="https://www.figma.com/community/file/1587383599083145538" target="_blank" style="display: block; text-decoration: none;">
+                        <img class="prototype-image" src="search/Gemini_Generated_Image_sjnzv5sjnzv5sjnz.png" alt="Agroalimentaire Prototype">
+                    </a>
+
+                    <div style="padding: 0.9rem 1rem 1rem;">
+                        <p class="muted">Click the image or button to open the Figma prototype in a new tab and try the flows.</p>
+                        <div class="prototype-cta">
+                            <a class="btn" href="https://www.figma.com/community/file/1587383599083145538" target="_blank">View Prototype</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form onsubmit="handleFormSubmit(event)" id="contactForm">
+                <div style="margin-bottom: 1rem;">
+                    <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <textarea name="message" placeholder="Your Message" rows="5" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div id="successMessage" class="success-message" style="display: none;">
+                <p>✅ Thank you for reaching out! We've received your message and will get back to you soon.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 AGROALIMENTAIRE. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#sitemap">Sitemap</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
